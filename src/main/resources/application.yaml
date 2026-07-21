@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect=org:
+          hibernate:
+            dialect: DB2Dialect
+  application:
+    name: techstore
+  datasource:
+    url: jdbc:db2://62.44.108.24:50000/SAMPLE:currentSchema=FN0MI0700372;
+    username: db2admin
+    password: db2admin
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
